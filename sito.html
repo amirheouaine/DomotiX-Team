@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartHome Control - KitchenX</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+        header, nav, .hero, .features, .presentation, footer {
+            position: relative;
+            z-index: 2;
+        }
+        /* Video sfondo */
+        .background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+        }
+        /* Sovrascrive il contenuto in cima */
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background: rgba(44, 62, 80, 0.8);
+        }
+        header img {
+            width: 100px;
+            height: auto;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(52, 73, 94, 0.8);
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(236, 240, 241, 0.8);
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+        }
+        .feature {
+            background: rgba(244, 244, 249, 0.9);
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+            max-width: 300px;
+        }
+        .presentation {
+            padding: 20px;
+            background: rgba(236, 240, 241, 0.9);
+        }
+        footer {
+            text-align: center;
+            background: rgba(44, 62, 80, 0.8);
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Video di sfondo -->
+    <video class="background-video" autoplay muted loop>
+        <source src="La_Piccola_Coca_Cola__Momenti_Divertenti_-VEED.mp4" type="video/mp4">
+        Il tuo browser non supporta la riproduzione di video.
+    </video>
+    <header>
+        <!-- Inseriamo il logo animato -->
+        <img src="logo_animato_sG.gif" alt="Logo SmartHome">
+        <h1>SmartHome Control - KitchenX</h1>
+        <p>La cucina del futuro, oggi.</p>
+    </header>
+    <nav>
+        <a href="#features">Funzionalità</a>
+        <a href="#presentation">Presentazione</a>
+        <a href="#contact">Contatti</a>
+    </nav>
+    <section class="hero">
+        <h1>Controlla la tua cucina in modo intelligente</h1>
+        <p>Gestisci frigorifero, rifiuti, illuminazione e molto altro con un'app unica.</p>
+    </section>
+    <section id="features" class="features">
+        <div class="feature">
+            <img src="https://via.placeholder.com/100" alt="Frigorifero">
+            <h3>Frigorifero Intelligente</h3>
+            <p>Organizza alimenti, ricevi notifiche e scopri ricette anti-spreco.</p>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/100" alt="Rifiuti">
+            <h3>Gestione Rifiuti</h3>
+            <p>Cestino intelligente per separare e riciclare con facilità.</p>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/100" alt="Illuminazione">
+            <h3>Illuminazione Automatica</h3>
+            <p>Regola le luci per un ambiente sempre confortevole.</p>
+        </div>
+    </section>
+    <section id="presentation" class="presentation">
+        <h2>Presentazione del Progetto</h2>
+        <p>
+            <strong>Abstract - Frigorifero:</strong> Un frigorifero intelligente che organizza gli alimenti per scadenza, offre notifiche e suggerisce ricette per ridurre gli sprechi alimentari.
+        </p>
+        <p>
+            <strong>Abstract - Sviluppo Software:</strong> L'applicazione gestisce la cucina sotto molteplici aspetti, tra cui controllo rifiuti, illuminazione, temperatura, e gestione piani di cottura.
+        </p>
+        <p>
+            <strong>Elementi Costitutivi:</strong> Un sistema integrato con nastri trasportatori, braccio meccanico e sensore ottico per lo smistamento e stoccaggio automatico degli alimenti.
+        </p>
+        <p>
+            KitchenX è il capostipite della gamma di prodotti innovativi del team DOMOTIX, progettato per un futuro più sostenibile e tecnologico.
+        </p>
+    </section>
+    <footer>
+        <p>&copy; 2024 SmartHome Control - KitchenX. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
